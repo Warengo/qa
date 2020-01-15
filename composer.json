@@ -1,0 +1,14 @@
+{
+	"name": "warengo/qa",
+	"description": "Warengo quality assurance",
+	"require": {
+		"ninjify/coding-standard": "^0.10.0",
+		"jakub-onderka/php-console-highlighter": "^0.4.0",
+		"jakub-onderka/php-parallel-lint": "^1.0.0"
+	},
+	"bin": [
+		"bin/codesniffer",
+		"bin/codefixer",
+		"bin/linter"
+	]
+}

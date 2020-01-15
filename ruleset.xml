@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="Warengo">
+	<!-- Ninjify Coding Standard -->
+	<rule ref="../../ninjify/coding-standard/ruleset.xml">
+		<!-- New line before brace -->
+		<exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
+		<exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine" />
+		<exclude name="PEAR.Classes.ClassDeclaration.OpenBraceNewLine" />
+	</rule>
+
+	<!-- Space before brace -->
+	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
+	<rule ref="Generic.Classes.OpeningBraceSameLine" />
+
+	<rule ref="Generic.WhiteSpace.ScopeIndent">
+		<properties>
+			<property name="indent" value="4"/>
+			<property name="tabIndent" value="true"/>
+		</properties>
+	</rule>
+	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+</ruleset>
