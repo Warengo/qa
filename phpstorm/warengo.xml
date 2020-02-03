@@ -1,5 +1,4 @@
 <code_scheme name="warengo" version="173">
-  <option name="RIGHT_MARGIN" value="110" />
   <PHPCodeStyleSettings>
     <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
@@ -13,6 +12,11 @@
     <option name="SPACE_AROUND_ASSIGNMENT_IN_DECLARE" value="true" />
     <option name="PLACE_PARENS_FOR_CONSTRUCTOR" value="1" />
   </PHPCodeStyleSettings>
+  <codeStyleSettings language="GraphQL">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
@@ -34,12 +38,9 @@
     <option name="BLANK_LINES_BEFORE_CLASS_END" value="1" />
     <option name="CLASS_BRACE_STYLE" value="1" />
     <option name="METHOD_BRACE_STYLE" value="1" />
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="SPECIAL_ELSE_IF_TREATMENT" value="true" />
     <option name="SPACE_AFTER_TYPE_CAST" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="1" />
-    <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
-    <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
     <option name="METHOD_PARAMETERS_WRAP" value="1" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
     <option name="TERNARY_OPERATION_WRAP" value="1" />
@@ -50,6 +51,11 @@
     <option name="DOWHILE_BRACE_FORCE" value="3" />
     <option name="WHILE_BRACE_FORCE" value="3" />
     <option name="FOR_BRACE_FORCE" value="3" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Twig">
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
