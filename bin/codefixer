@@ -31,3 +31,4 @@ if [ -z "$1" ]; then
 else
     # Run codefixer
     ${DIR}/phpcbf --standard="${RULESET}" --ignore="${EXCLUDE_FOLDERS}" --extensions="${EXTENSIONS}" --colors --encoding=utf-8 -nsp $@
+fi

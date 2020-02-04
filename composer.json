@@ -2,7 +2,9 @@
 	"name": "warengo/qa",
 	"description": "Warengo quality assurance",
 	"require": {
-		"ninjify/coding-standard": "^0.10.0",
+		"php": ">= 7.3",
+		"slevomat/coding-standard": "~5.0.0",
+		"squizlabs/php_codesniffer": "^3.3.1",
 		"jakub-onderka/php-console-highlighter": "^0.4.0",
 		"jakub-onderka/php-parallel-lint": "^1.0.0"
 	},
