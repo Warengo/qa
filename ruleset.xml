@@ -3,13 +3,8 @@
 
 	<!-- Ninjify -->
 	<rule ref="./ruleset-ninjify.xml">
-		<!-- New line before brace -->
-		<exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
-		<exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine" />
-		<exclude name="PEAR.Classes.ClassDeclaration.OpenBraceNewLine" />
-		<exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostDecrementOperator" />
-
 		<exclude name="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming.SuperfluousSuffix" /> <!-- Ignore Abstract suffix -->
+		<exclude name="SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming.SuperfluousSuffix" /> <!-- Ignore Interface suffix -->
 	</rule>
 
 	<rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator">
@@ -18,10 +13,10 @@
 		</properties>
 	</rule>
 
-
-	<!-- Space before brace -->
-	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
-	<rule ref="Generic.Classes.OpeningBraceSameLine" />
+	<!-- PHP 7.4 not supported -->
+	<rule ref="Squiz.Commenting.VariableComment.MissingVar">
+		<severity>0</severity>
+	</rule>
 
 	<!-- Tabs instead spaces -->
 	<rule ref="Generic.WhiteSpace.ScopeIndent">
