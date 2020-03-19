@@ -8,6 +8,8 @@
 		
 		<exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostDecrementOperator"/>
 		<exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostIncrementOperator"/>
+		
+		<exclude name="Squiz.WhiteSpace.MemberVarSpacing"></exclude> <!-- TODO: own sniff -->
 	</rule>
 
 	<rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator">
