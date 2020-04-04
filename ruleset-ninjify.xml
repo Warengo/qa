@@ -351,10 +351,4 @@
 			<property name="spacesCountBeforeColon" value="0"/>
 		</properties>
 	</rule>
-	<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
-		<properties>
-			<property name="enableEachParameterAndReturnInspection" value="true"/>
-			<property name="allAnnotationsAreUseful" value="true"/>
-		</properties>
-	</rule>
 </ruleset>
